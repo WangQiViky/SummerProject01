@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome</title>
+    <!-- 引入css样式文件 -->
+    <link rel="stylesheet" type="text/css" href="/css/index.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/common.css"/>
+    <!-- Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.css"/>
+    <!-- font-asesome图标库 -->
+    <link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css"/>
+
+    <!-- jquery -->
+    <script src="/js/jquery.js"></script>
+    <!-- Bootstrap 核心 JavaScript 文件 -->
+    <script src="/js/bootstrap.js"></script>
+    <!-- 引入js脚本文件 -->
+    <script src="/js/request.js"></script>
+    <script src="/js/twoChoices.js"></script>
+</head>
+
+
+<body>
+
+<div id="left">
+    <!--    <span class="text-show"> 想将卡通形象的脸换成自己的？<br>那就选择这个吧！<br></span>-->
+    <span class="text-show1"> 想将卡通形象的脸换成自己的？<br></span>
+    <span class="text-show2"> 那就选择这个吧！<br></span>
+    <button onclick="startCamera()" type="button" class="button" id="camera-button1">拍照使用自己的脸</button>
+</div>
+
+
+<div id="right">
+    <span class="text-show1"> 直接使用卡通人物的形象讲故事？<br></span>
+    <span class="text-show2"> 那就选择这个吧！<br></span>
+    <button onclick="chooseCartoon()" type="button" class="button" id="choose-cartoon">挑选卡通人物</button>
+</div>
+<!--<button onclick="pictureFix()"  type="button" calss="btn btn-success" id="camera-button2">直接选择卡通形象</button>-->
+<!--<button onclick="startImage()" type="button" class="btn btn-success" id="camera-button2">使用卡通拟合</button>-->
+<!--<a class="zanshi" href="/user/startSelect">开始故事讲述</a>-->
+<!--<div id="image-container"></div>-->
+
+
+
+<audio src="/video/camera.wav" autoplay="autoplay"></audio>
+</body>
+
+</html>

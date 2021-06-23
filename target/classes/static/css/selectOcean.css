@@ -1,0 +1,28 @@
+body{
+    background:url(/images/ocean.jpg) center;
+}
+.letter-border {
+    width: 100%;
+    height: 100%;
+    background: #f1f9ee;
+}
+
+.letter-box {
+    margin-top:150px;
+    margin-left:250px;
+    width: 700px;
+    height: 400px;
+    padding: 5px;
+    box-sizing: border-box;
+    background: linear-gradient(45deg, #f25953 12.5%, #fbfaf5 12.5%, #fbfaf5 25%, #5590d6 25%, #5590d6 37.5%, #fbfaf5 37.5%, #fbfaf5 50%, #f25953 50%, #f25953 62.5%, #fbfaf5 62.5%, #fbfaf5 75%, #5590d6 75%, #5590d6 87.5%, #fbfaf5 87.5%, #fbfaf5 100%);
+    background-size: 70px 70px;
+}
+.font-container{
+    padding-top:50px;
+    padding-left:50px;
+    padding-right:50px;
+    font-color: #63804e;
+}
+.button-jump{
+    padding-left:280px;
+}

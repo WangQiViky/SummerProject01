@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Title</title>
+    <title>Welcome</title>
+    <!-- 引入css样式文件 -->
+    <link rel="stylesheet" type="text/css" href="/css/fixAndPs.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/choosedMouth.css">
+    <link rel="stylesheet" type="text/css" href="/css/common.css"/>
+    <!-- Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.css"/>
+    <!-- font-asesome图标库 -->
+    <link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css"/>
+    <!--    <link rel="stylesheet" type="text/css" href="/css/index.css"/>-->
+
+    <!-- jquery -->
+    <script src="/js/jquery.js"></script>
+    <!-- Bootstrap 核心 JavaScript 文件 -->
+    <script src="/js/bootstrap.js"></script>
+    <!-- 引入js脚本文件 -->
+    <script src="/js/request.js"></script>
+    <script src="/js/choosedMouth.js"></script>
+
+</head>
+<body>
+<div id="left">
+    <span class="text-show1">~缩小嘴巴的卡通人物~</span>
+    <!--    <img class="feiji" src="/photos/feiji.png" width="300" hight="100" alt="飞机">-->
+    <img class="img"  src="/photos/loading.gif"  width="212" alt="照片">
+
+    <!--        <script type="text/javascript">document.write('<img src="/photos/photo.jpg?timestamp=' + Math.random()+ '"/>');</script>-->
+</div>
+
+<div id="right">
+    <div id="top">
+        <button  onclick="choosedEye()"  type="button" class="button" id="camera-button3">大眼睛</button>
+    </div>
+
+    <div id="down">
+        <button  onclick="choosedMouth()" disabled="disabled" type="button" class="button" id="camera-button4">小嘴巴</button>
+    </div>
+
+    <div id="no-adjust">
+        <button  onclick="jinru()" type="button" class="button" >跳过五官调整部分</button>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,26 @@
+body {
+    background-image: url("../photos/beijing_kong.jpg");
+    /*background-color: #0f0f0f;*/
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.container{
+    margin-top: 100px;
+    margin-left: 250px;
+
+}
+h1{
+    margin-left:200px;
+    color:#40afad;
+}
+h3{
+    color:#40afad;
+}
+
+.container .items{
+    border: 1px solid #EEEEEE;
+    padding: 10px;
+    margin-bottom: 15px;
+}

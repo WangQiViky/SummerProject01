@@ -1,0 +1,8 @@
+#camera-button4:hover{
+    cursor:not-allowed;
+}
+
+#camera-button4{
+    background-color: grey ;/* Green */
+    box-shadow:none;
+}

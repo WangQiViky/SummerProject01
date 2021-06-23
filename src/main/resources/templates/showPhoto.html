@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Title</title>
+    <title>Welcome</title>
+    <!-- 引入css样式文件 -->
+    <link rel="stylesheet" type="text/css" href="/css/showPhoto.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/common.css"/>
+    <!-- Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.css"/>
+    <!-- font-asesome图标库 -->
+    <link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css"/>
+<!--    <link rel="stylesheet" type="text/css" href="/css/index.css"/>-->
+
+    <!-- jquery -->
+    <script src="/js/jquery.js"></script>
+    <!-- Bootstrap 核心 JavaScript 文件 -->
+    <script src="/js/bootstrap.js"></script>
+    <!-- 引入js脚本文件 -->
+    <script src="/js/request.js"></script>
+    <script src="/js/showPhoto.js"></script>
+
+</head>
+<body>
+<div id="left">
+    <span class="text-show1">~新鲜的照片出炉啦~</span>
+<!--    <img class="feiji" src="/photos/feiji.png" width="300" hight="100" alt="飞机">-->
+    <img  class="img" width="400"  alt="照片">
+
+<!--        <script type="text/javascript">document.write('<img src="/photos/photo.jpg?timestamp=' + Math.random()+ '"/>');</script>-->
+</div>
+
+<div id="right">
+    <div id="top">
+        <button  onclick="picturePs()" type="button" class="button" id="camera-button3">抠图拼接</button>
+    </div>
+
+    <div id="down">
+        <button  onclick="pictureFix()" type="button" class="button" id="camera-button4">人脸拟合</button>
+    </div>
+</div>
+</body>
+</html>

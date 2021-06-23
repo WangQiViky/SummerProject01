@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--视口的设置，让网页能等比例的缩放到对应设备中-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--告诉ie浏览器用最新内核去渲染网页-->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link rel="stylesheet" type="text/css" href="/css/index.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/common.css"/>
+    <!-- Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.css"/>
+    <!-- font-asesome图标库 -->
+    <link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/selectCartoon.css"/>
+
+
+    <!--jquery.js 一定要放在bootstrap.min.js之前，如果不放报错-->
+    <!-- jquery -->
+    <script src="/js/jquery.js"></script>
+    <!-- Bootstrap 核心 JavaScript 文件 -->
+    <script src="/js/bootstrap.js"></script>
+    <!-- 引入js脚本文件 -->
+    <script src="/js/request.js"></script>
+    <script src="/js/startSelect.js"></script>
+
+</head>
+<body>
+
+
+<div id="gongzhu">
+
+    <div id="text">
+        <span class="text-show1">从下面选一个自己喜欢的人物吧</span>
+    </div>
+
+    <div class="row">
+        <a href="/user/selectFix?id=1">
+            <div class="gongzhu-detail">
+                <div class="items text-center">
+<!--                    <img class="img-responsive" src="/photos/gongzhu_1.png" />-->
+                    <img class="img-responsive" id="pic1" src=""/>
+                </div>
+            </div>
+        </a>
+        <a href="/user/selectFix?id=2">
+            <div class="gongzhu-detail">
+                <div class="items text-center">
+<!--                    <img class="img-responsive" src="/photos/gongzhu_2.png" />-->
+                    <img class="img-responsive" id="pic2" src=""/>
+
+                </div>
+            </div>
+        </a>
+        <a href="/user/selectFix?id=4">
+            <div class="gongzhu-detail">
+                <div class="items text-center">
+<!--                    <img class="img-responsive" src="/photos/gongzhu_4.png" />-->
+                    <img class="img-responsive" id="pic3" src=""/>
+                </div>
+            </div>
+        </a>
+        <!--            <a href="/user/selectPs?id=4">-->
+        <!--                <div class="gongzhu-detail">-->
+        <!--                    <div class="items text-center">-->
+        <!--                        <img class="img-responsive" src="/photos/gongzhu_4.png" />-->
+        <!--                        <h3>图3</h3>-->
+        <!--                    </div>-->
+        <!--                </div>-->
+        <!--            </a>-->
+    </div>
+</div>
+<!--<audio src="/video/selectBackground.wav" autoplay="autoplay"></audio>-->
+</body>
+</html>

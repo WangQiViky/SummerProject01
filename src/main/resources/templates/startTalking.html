@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome</title>
+    <!-- 引入css样式文件 -->
+    <link rel="stylesheet" type="text/css" href="/css/index.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/common.css"/>
+    <!-- Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.css"/>
+    <!-- font-asesome图标库 -->
+    <link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/startTalking.css"/>
+
+    <script src="/js/qiniu.min.js"></script>
+    <!-- jquery -->
+    <script src="/js/jquery.js"></script>
+    <!-- Bootstrap 核心 JavaScript 文件 -->
+    <script src="/js/bootstrap.js"></script>
+    <!-- 引入js脚本文件 -->
+    <script src="/js/request.js"></script>
+    <script src="/js/index1.js"></script>
+</head>
+<body>
+<div id="container">
+    <div class="item item-1">1</div>
+    <div class="item item-2">
+        <div style="margin-bottom: 50px">
+            <h2>故事创作的剪贴画</h2>
+            <!--    <img class="feiji" src="/photos/feiji.png" width="300" hight="100" alt="飞机">-->
+            <div id="image-container" class="item item-4 image" style="width: 500px;height: 300px;margin: 0 auto">
+                <img class="img"  src="/photos/loading.gif" width="500" height="300" alt="照片">
+            </div>
+
+            <!--        <script type="text/javascript">document.write('<img src="/photos/photo.jpg?timestamp=' + Math.random()+ '"/>');</script>-->
+        </div>
+        <div id="result-container" class="word">
+            <div id="word-container" class="content"></div>
+            <div id="talking-container" class="content"></div>
+            <div id="wav-container"></div>
+        </div>
+        <div  id="end" class="talking">
+            <!--    <input type="file" onchange="playMusic.call(this)" class="select-file">-->
+            <div class="talkingButton">
+                <audio class="audio-node" autoplay></audio>
+                <button id="start-button" class="btn btn-lg btn-primary" onclick="record()">开始录音</button>
+                <button id="end-button" class="btn btn-lg btn-primary" disabled="disabled" onclick="stopRecord()">停止录音</button>
+            </div>
+            <div class="nextStep">
+                <button class="btn btn-lg btn-primary" onclick="finishCreate()" id="button3">故事完成</button>
+                <button class="btn btn-lg btn-primary" onclick="finishCreate2()" id="button4">继续讲述</button>
+            </div>
+
+        </div>
+    </div>
+    <div class="item item-3">3</div>
+</div>
+<!--<div id="middle">-->
+<!--    <span class="text-show1">~故事创作的剪贴画~</span>-->
+<!--    &lt;!&ndash;    <img class="feiji" src="/photos/feiji.png" width="300" hight="100" alt="飞机">&ndash;&gt;-->
+<!--    <div  id="image-container" class="image">-->
+<!--        <img class="img"  src="/photos/loading.gif"  height="100" width="100" alt="照片">-->
+<!--    </div>-->
+
+<!--    &lt;!&ndash;        <script type="text/javascript">document.write('<img src="/photos/photo.jpg?timestamp=' + Math.random()+ '"/>');</script>&ndash;&gt;-->
+<!--</div>-->
+<!--<div id="result-container" class="word">-->
+<!--    <div id="word-container" class="content"></div>-->
+<!--    <div id="talking-container" class="content"></div>-->
+<!--    <div id="wav-container"></div>-->
+<!--</div>-->
+<!--&lt;!&ndash;    <a href="start.html">拍照</a>&ndash;&gt;-->
+<!--<div  id="end" class="talking">-->
+<!--    &lt;!&ndash;    <input type="file" onchange="playMusic.call(this)" class="select-file">&ndash;&gt;-->
+<!--    <div class="talkingButton">-->
+<!--        <audio class="audio-node" autoplay></audio>-->
+<!--        <button id="start-button" class="btn btn-lg btn-primary" onclick="record()">开始录音</button>-->
+<!--        <button id="end-button" class="btn btn-lg btn-primary" disabled="disabled" onclick="stopRecord()">停止录音</button>-->
+<!--    </div>-->
+<!--    <div class="nextStep">-->
+<!--        <button class="btn btn-lg btn-primary" onclick="finishCreate()" id="button3">故事完成</button>-->
+<!--        <button class="btn btn-lg btn-primary" onclick="finishCreate2()" id="button4">继续讲述</button>-->
+<!--    </div>-->
+
+<!--</div>-->
+
+</body>
+
+</html>

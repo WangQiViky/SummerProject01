@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Title</title>
+    <title>Welcome</title>
+    <!-- 引入css样式文件 -->
+    <link rel="stylesheet" type="text/css" href="/css/abandon.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/common.css"/>
+    <!-- Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.css"/>
+    <!-- font-asesome图标库 -->
+    <link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css"/>
+    <!--    <link rel="stylesheet" type="text/css" href="/css/index.css"/>-->
+
+    <!-- jquery -->
+    <script src="/js/jquery.js"></script>
+    <!-- Bootstrap 核心 JavaScript 文件 -->
+    <script src="/js/bootstrap.js"></script>
+    <!-- 引入js脚本文件 -->
+    <script src="/js/request.js"></script>
+    <script src="/js/abandon.js"></script>
+
+</head>
+<body>
+<div id="left">
+    <span class="text-show1">没有识别出人脸呢！<br>点击按钮重新拍照吧</span>
+    <!--    <img class="feiji" src="/photos/feiji.png" width="300" hight="100" alt="飞机">-->
+    <div id="kuqi">
+        <img  src="/photos/ku.png" style="width: 300px ; height: 300px ;margin-top:80px;margin-left:40px" alt="照片">
+
+    </div>
+
+    <!--        <script type="text/javascript">document.write('<img src="/photos/photo.jpg?timestamp=' + Math.random()+ '"/>');</script>-->
+</div>
+
+<div id="right">
+    <div id="top">
+        <button  onclick="toIndex()" type="button" class="button" id="camera-button3">点击重新拍照</button>
+    </div>
+
+    <div id="down">
+        <button  onclick="toStartStory()" type="button" class="button" id="camera-button4">跳过五官调整</button>
+    </div>
+
+</div>
+
+
+</body>
+</html>

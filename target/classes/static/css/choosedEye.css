@@ -1,0 +1,8 @@
+#camera-button3:hover{
+    cursor:not-allowed;
+}
+
+#camera-button3{
+    background-color: grey ;/* Green */
+    box-shadow:none;
+}
