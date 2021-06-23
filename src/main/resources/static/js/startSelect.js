@@ -12,9 +12,9 @@ $(document).ready(function () {
         $("#pic2").attr('src','/photos/gongzhu_12.png');
         $("#pic3").attr('src','/photos/gongzhu_13.png');
 
-        $("#a1").attr('href','/user/selectPs?id=11')
-        $("#a2").attr('href','/user/selectPs?id=12')
-        $("#a3").attr('href','/user/selectPs?id=13')
+        $("#a1").attr('href','/user/resultCartoon?id=11')
+        $("#a2").attr('href','/user/resultCartoon?id=12')
+        $("#a3").attr('href','/user/resultCartoon?id=13')
 
 
     }else if(gender === 'girl'){
@@ -23,9 +23,9 @@ $(document).ready(function () {
         $("#pic2").attr('src','/photos/gongzhu_2.png');
         $("#pic3").attr('src','/photos/gongzhu_4.png');
 
-        $("#a1").attr('href','/user/selectPs?id=1')
-        $("#a2").attr('href','/user/selectPs?id=2')
-        $("#a3").attr('href','/user/selectPs?id=4')
+        $("#a1").attr('href','/user/resultCartoon?id=1')
+        $("#a2").attr('href','/user/resultCartoon?id=2')
+        $("#a3").attr('href','/user/resultCartoon?id=4')
     }
 
 

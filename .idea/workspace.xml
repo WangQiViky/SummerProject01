@@ -1,0 +1,948 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cb6c5bdb-fdd7-44a2-9f50-e994403ec602" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/cinema_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/cinema_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cn_hutool_hutool_all_5_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_67.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jai_imageio_jai_imageio_core_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_lowagie_itext_2_1_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_qiniu_happy_dns_java_0_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_qiniu_qiniu_java_sdk_7_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_14_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_17_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_dbcp_commons_dbcp_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_pool_commons_pool_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_core_1_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_coobird_thumbnailator_0_4_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_4_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_lept4j_lept4j_1_13_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_nekohtml_nekohtml_1_9_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_tess4j_tess4j_4_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_bpmn_converter_5_18_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_bpmn_model_5_18_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_engine_5_18_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_image_generator_5_18_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_process_validation_5_18_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_spring_5_18_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_email_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_pdfbox_fontbox_2_0_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_pdfbox_jbig2_imageio_3_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_pdfbox_pdfbox_2_0_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_pdfbox_pdfbox_debugger_2_0_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_pdfbox_pdfbox_tools_2_0_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlgraphics_xmlgraphics_commons_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_artoolkitplus_2_3_1_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_artoolkitplus_android_arm64_2_3_1_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_artoolkitplus_android_arm_2_3_1_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_artoolkitplus_android_x86_2_3_1_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_artoolkitplus_android_x86_64_2_3_1_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_artoolkitplus_linux_arm64_2_3_1_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_artoolkitplus_linux_armhf_2_3_1_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_artoolkitplus_linux_ppc64le_2_3_1_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_artoolkitplus_linux_x86_2_3_1_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_artoolkitplus_linux_x86_64_2_3_1_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_artoolkitplus_macosx_x86_64_2_3_1_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_artoolkitplus_platform_2_3_1_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_artoolkitplus_windows_x86_2_3_1_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_artoolkitplus_windows_x86_64_2_3_1_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_ffmpeg_4_2_2_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_ffmpeg_android_arm64_4_2_2_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_ffmpeg_android_arm_4_2_2_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_ffmpeg_android_x86_4_2_2_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_ffmpeg_android_x86_64_4_2_2_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_ffmpeg_linux_arm64_4_2_2_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_ffmpeg_linux_armhf_4_2_2_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_ffmpeg_linux_ppc64le_4_2_2_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_ffmpeg_linux_x86_4_2_2_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_ffmpeg_linux_x86_64_4_2_2_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_ffmpeg_macosx_x86_64_4_2_2_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_ffmpeg_platform_4_2_2_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_ffmpeg_windows_x86_4_2_2_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_ffmpeg_windows_x86_64_4_2_2_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_flandmark_1_07_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_flandmark_android_arm64_1_07_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_flandmark_android_arm_1_07_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_flandmark_android_x86_1_07_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_flandmark_android_x86_64_1_07_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_flandmark_linux_arm64_1_07_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_flandmark_linux_armhf_1_07_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_flandmark_linux_ppc64le_1_07_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_flandmark_linux_x86_1_07_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_flandmark_linux_x86_64_1_07_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_flandmark_macosx_x86_64_1_07_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_flandmark_platform_1_07_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_flandmark_windows_x86_1_07_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_flandmark_windows_x86_64_1_07_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_flycapture_2_13_3_31_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_flycapture_linux_arm64_2_13_3_31_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_flycapture_linux_armhf_2_13_3_31_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_flycapture_linux_x86_2_13_3_31_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_flycapture_linux_x86_64_2_13_3_31_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_flycapture_platform_2_13_3_31_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_flycapture_windows_x86_2_13_3_31_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_flycapture_windows_x86_64_2_13_3_31_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_android_arm64_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_android_arm_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_android_x86_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_android_x86_64_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_ios_arm64_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_ios_x86_64_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_linux_arm64_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_linux_armhf_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_linux_ppc64le_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_linux_x86_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_linux_x86_64_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_macosx_x86_64_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_platform_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_opencv_3_4_1_1_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_opencv_android_arm64_3_4_1_1_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_opencv_android_arm_3_4_1_1_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_opencv_android_x86_3_4_1_1_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_opencv_android_x86_64_3_4_1_1_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_opencv_ios_arm64_3_4_1_1_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_opencv_ios_x86_64_3_4_1_1_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_opencv_linux_armhf_3_4_1_1_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_opencv_linux_ppc64le_3_4_1_1_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_opencv_linux_x86_3_4_1_1_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_opencv_linux_x86_64_3_4_1_1_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_opencv_macosx_x86_64_3_4_1_1_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_opencv_platform_3_4_1_1_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_opencv_windows_x86_3_4_1_1_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_opencv_windows_x86_64_3_4_1_1_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_windows_x86_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_windows_x86_64_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacv_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacv_platform_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_leptonica_1_79_0_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_leptonica_android_arm64_1_79_0_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_leptonica_android_arm_1_79_0_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_leptonica_android_x86_1_79_0_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_leptonica_android_x86_64_1_79_0_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_leptonica_linux_arm64_1_79_0_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_leptonica_linux_armhf_1_79_0_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_leptonica_linux_ppc64le_1_79_0_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_leptonica_linux_x86_1_79_0_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_leptonica_linux_x86_64_1_79_0_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_leptonica_macosx_x86_64_1_79_0_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_leptonica_platform_1_79_0_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_leptonica_windows_x86_1_79_0_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_leptonica_windows_x86_64_1_79_0_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_libdc1394_2_2_6_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_libdc1394_linux_arm64_2_2_6_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_libdc1394_linux_armhf_2_2_6_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_libdc1394_linux_ppc64le_2_2_6_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_libdc1394_linux_x86_2_2_6_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_libdc1394_linux_x86_64_2_2_6_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_libdc1394_macosx_x86_64_2_2_6_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_libdc1394_platform_2_2_6_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_libdc1394_windows_x86_2_2_6_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_libdc1394_windows_x86_64_2_2_6_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_libfreenect2_0_2_0_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_libfreenect2_linux_x86_0_2_0_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_libfreenect2_linux_x86_64_0_2_0_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_libfreenect2_macosx_x86_64_0_2_0_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_libfreenect2_platform_0_2_0_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_libfreenect2_windows_x86_64_0_2_0_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_libfreenect_0_5_7_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_libfreenect_linux_arm64_0_5_7_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_libfreenect_linux_armhf_0_5_7_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_libfreenect_linux_ppc64le_0_5_7_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_libfreenect_linux_x86_0_5_7_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_libfreenect_linux_x86_64_0_5_7_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_libfreenect_macosx_x86_64_0_5_7_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_libfreenect_platform_0_5_7_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_libfreenect_windows_x86_0_5_7_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_libfreenect_windows_x86_64_0_5_7_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_librealsense2_2_29_0_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_librealsense2_linux_x86_2_29_0_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_librealsense2_linux_x86_64_2_29_0_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_librealsense2_macosx_x86_64_2_29_0_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_librealsense2_platform_2_29_0_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_librealsense2_windows_x86_2_29_0_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_librealsense2_windows_x86_64_2_29_0_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_librealsense_1_12_4_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_librealsense_linux_x86_1_12_4_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_librealsense_linux_x86_64_1_12_4_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_librealsense_macosx_x86_64_1_12_4_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_librealsense_platform_1_12_4_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_librealsense_windows_x86_1_12_4_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_librealsense_windows_x86_64_1_12_4_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_openblas_0_3_9_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_openblas_android_arm64_0_3_9_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_openblas_android_arm_0_3_9_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_openblas_android_x86_0_3_9_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_openblas_android_x86_64_0_3_9_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_openblas_ios_arm64_0_3_9_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_openblas_ios_x86_64_0_3_9_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_openblas_linux_arm64_0_3_9_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_openblas_linux_armhf_0_3_9_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_openblas_linux_ppc64le_0_3_9_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_openblas_linux_x86_0_3_9_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_openblas_linux_x86_64_0_3_9_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_openblas_macosx_x86_64_0_3_9_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_openblas_platform_0_3_9_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_openblas_windows_x86_0_3_9_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_openblas_windows_x86_64_0_3_9_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_opencv_4_3_0_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_opencv_android_arm64_4_3_0_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_opencv_android_arm_4_3_0_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_opencv_android_x86_4_3_0_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_opencv_android_x86_64_4_3_0_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_opencv_ios_arm64_4_3_0_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_opencv_ios_x86_64_4_3_0_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_opencv_linux_arm64_4_3_0_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_opencv_linux_armhf_4_3_0_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_opencv_linux_ppc64le_4_3_0_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_opencv_linux_x86_4_3_0_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_opencv_linux_x86_64_4_3_0_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_opencv_macosx_x86_64_4_3_0_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_opencv_platform_4_3_0_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_opencv_windows_x86_4_3_0_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_opencv_windows_x86_64_4_3_0_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_tesseract_4_1_1_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_tesseract_android_arm64_4_1_1_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_tesseract_android_arm_4_1_1_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_tesseract_android_x86_4_1_1_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_tesseract_android_x86_64_4_1_1_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_tesseract_linux_arm64_4_1_1_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_tesseract_linux_armhf_4_1_1_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_tesseract_linux_ppc64le_4_1_1_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_tesseract_linux_x86_4_1_1_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_tesseract_linux_x86_64_4_1_1_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_tesseract_macosx_x86_64_4_1_1_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_tesseract_platform_4_1_1_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_tesseract_windows_x86_4_1_1_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_tesseract_windows_x86_64_4_1_1_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_videoinput_0_200_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_videoinput_platform_0_200_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_videoinput_windows_x86_0_200_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_videoinput_windows_x86_64_0_200_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ghost4j_ghost4j_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_14_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jboss_vfs_3_2_15_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_latencyutils_LatencyUtils_2_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xerces_xercesImpl_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_4_01.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/startSelectFix.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/startSelectPs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cinema.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cinema.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/startSelect.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/startSelect.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/selectWhichCartoon.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/selectWhichCartoon.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/selectWhichFix.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/selectWhichFix.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/selectWhichPs.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/selectWhichPs.html" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/classes/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/selectWhichCartoon.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="458">
+              <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/selectWhichPs.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="648">
+              <caret line="62" column="25" lean-forward="true" selection-start-line="62" selection-start-column="25" selection-end-line="62" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/selectWhichFix.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="857">
+              <caret line="75" column="7" selection-start-line="75" selection-start-column="7" selection-end-line="75" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/selectFix.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/selectPs.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/startSelectFix.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/startSelectPs.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/startSelect.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="515">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/resources/templates/selectWhichCartoon.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/selectWhichPs.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/selectWhichFix.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/startSelect.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/cinema.iml" />
+        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/artifacts/cinema_war.xml" />
+        <option value="$PROJECT_DIR$/.idea/artifacts/cinema_war_exploded.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/dbnavigator.xml" />
+        <option value="$PROJECT_DIR$/.idea/encodings.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/codeStyles/Project.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__cn_hutool_hutool_all_5_3_5.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_67.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_8.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_8.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_8.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jai_imageio_jai_imageio_core_1_4_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_lowagie_itext_2_1_7.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_qiniu_happy_dns_java_0_1_6.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_qiniu_qiniu_java_sdk_7_4_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_14_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_17_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_6_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__commons_dbcp_commons_dbcp_1_4.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__commons_pool_commons_pool_1_6.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_core_1_1_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_10_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_15.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__net_coobird_thumbnailator_0_4_8.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_4_5_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_lept4j_lept4j_1_13_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_nekohtml_nekohtml_1_9_18.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_tess4j_tess4j_4_5_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_bpmn_converter_5_18_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_bpmn_model_5_18_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_engine_5_18_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_image_generator_5_18_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_process_validation_5_18_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_spring_5_18_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_email_1_4.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_8_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_7.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_11.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_pdfbox_fontbox_2_0_18.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_pdfbox_jbig2_imageio_3_0_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_pdfbox_pdfbox_2_0_18.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_pdfbox_pdfbox_debugger_2_0_18.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_pdfbox_pdfbox_tools_2_0_18.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_16.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_16.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_16.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlgraphics_xmlgraphics_commons_1_4.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_artoolkitplus_2_3_1_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_artoolkitplus_android_arm64_2_3_1_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_artoolkitplus_android_arm_2_3_1_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_artoolkitplus_android_x86_2_3_1_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_artoolkitplus_android_x86_64_2_3_1_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_artoolkitplus_linux_arm64_2_3_1_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_artoolkitplus_linux_armhf_2_3_1_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_artoolkitplus_linux_ppc64le_2_3_1_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_artoolkitplus_linux_x86_2_3_1_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_artoolkitplus_linux_x86_64_2_3_1_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_artoolkitplus_macosx_x86_64_2_3_1_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_artoolkitplus_platform_2_3_1_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_artoolkitplus_windows_x86_2_3_1_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_artoolkitplus_windows_x86_64_2_3_1_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_ffmpeg_4_2_2_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_ffmpeg_android_arm64_4_2_2_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_ffmpeg_android_arm_4_2_2_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_ffmpeg_android_x86_4_2_2_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_ffmpeg_android_x86_64_4_2_2_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_ffmpeg_linux_arm64_4_2_2_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_ffmpeg_linux_armhf_4_2_2_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_ffmpeg_linux_ppc64le_4_2_2_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_ffmpeg_linux_x86_4_2_2_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_ffmpeg_linux_x86_64_4_2_2_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_ffmpeg_macosx_x86_64_4_2_2_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_ffmpeg_platform_4_2_2_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_ffmpeg_windows_x86_4_2_2_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_ffmpeg_windows_x86_64_4_2_2_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_flandmark_1_07_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_flandmark_android_arm64_1_07_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_flandmark_android_arm_1_07_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_flandmark_android_x86_1_07_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_flandmark_android_x86_64_1_07_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_flandmark_linux_arm64_1_07_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_flandmark_linux_armhf_1_07_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_flandmark_linux_ppc64le_1_07_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_flandmark_linux_x86_1_07_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_flandmark_linux_x86_64_1_07_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_flandmark_macosx_x86_64_1_07_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_flandmark_platform_1_07_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_flandmark_windows_x86_1_07_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_flandmark_windows_x86_64_1_07_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_flycapture_2_13_3_31_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_flycapture_linux_arm64_2_13_3_31_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_flycapture_linux_armhf_2_13_3_31_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_flycapture_linux_x86_2_13_3_31_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_flycapture_linux_x86_64_2_13_3_31_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_flycapture_platform_2_13_3_31_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_flycapture_windows_x86_2_13_3_31_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_flycapture_windows_x86_64_2_13_3_31_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_android_arm64_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_android_arm_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_android_x86_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_android_x86_64_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_ios_arm64_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_ios_x86_64_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_linux_arm64_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_linux_armhf_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_linux_ppc64le_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_linux_x86_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_linux_x86_64_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_macosx_x86_64_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_platform_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_opencv_3_4_1_1_4_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_opencv_android_arm64_3_4_1_1_4_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_opencv_android_arm_3_4_1_1_4_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_opencv_android_x86_3_4_1_1_4_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_opencv_android_x86_64_3_4_1_1_4_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_opencv_ios_arm64_3_4_1_1_4_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_opencv_ios_x86_64_3_4_1_1_4_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_opencv_linux_armhf_3_4_1_1_4_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_opencv_linux_ppc64le_3_4_1_1_4_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_opencv_linux_x86_3_4_1_1_4_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_opencv_linux_x86_64_3_4_1_1_4_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_opencv_macosx_x86_64_3_4_1_1_4_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_opencv_platform_3_4_1_1_4_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_opencv_windows_x86_3_4_1_1_4_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_opencv_windows_x86_64_3_4_1_1_4_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_windows_x86_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_windows_x86_64_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacv_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacv_platform_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_leptonica_1_79_0_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_leptonica_android_arm64_1_79_0_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_leptonica_android_arm_1_79_0_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_leptonica_android_x86_1_79_0_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_leptonica_android_x86_64_1_79_0_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_leptonica_linux_arm64_1_79_0_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_leptonica_linux_armhf_1_79_0_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_leptonica_linux_ppc64le_1_79_0_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_leptonica_linux_x86_1_79_0_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_leptonica_linux_x86_64_1_79_0_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_leptonica_macosx_x86_64_1_79_0_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_leptonica_platform_1_79_0_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_leptonica_windows_x86_1_79_0_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_leptonica_windows_x86_64_1_79_0_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_libdc1394_2_2_6_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_libdc1394_linux_arm64_2_2_6_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_libdc1394_linux_armhf_2_2_6_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_libdc1394_linux_ppc64le_2_2_6_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_libdc1394_linux_x86_2_2_6_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_libdc1394_linux_x86_64_2_2_6_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_libdc1394_macosx_x86_64_2_2_6_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_libdc1394_platform_2_2_6_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_libdc1394_windows_x86_2_2_6_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_libdc1394_windows_x86_64_2_2_6_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_libfreenect2_0_2_0_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_libfreenect2_linux_x86_0_2_0_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_libfreenect2_linux_x86_64_0_2_0_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_libfreenect2_macosx_x86_64_0_2_0_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_libfreenect2_platform_0_2_0_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_libfreenect2_windows_x86_64_0_2_0_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_libfreenect_0_5_7_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_libfreenect_linux_arm64_0_5_7_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_libfreenect_linux_armhf_0_5_7_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_libfreenect_linux_ppc64le_0_5_7_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_libfreenect_linux_x86_0_5_7_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_libfreenect_linux_x86_64_0_5_7_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_libfreenect_macosx_x86_64_0_5_7_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_libfreenect_platform_0_5_7_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_libfreenect_windows_x86_0_5_7_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_libfreenect_windows_x86_64_0_5_7_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_librealsense2_2_29_0_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_librealsense2_linux_x86_2_29_0_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_librealsense2_linux_x86_64_2_29_0_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_librealsense2_macosx_x86_64_2_29_0_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_librealsense2_platform_2_29_0_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_librealsense2_windows_x86_2_29_0_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_librealsense2_windows_x86_64_2_29_0_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_librealsense_1_12_4_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_librealsense_linux_x86_1_12_4_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_librealsense_linux_x86_64_1_12_4_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_librealsense_macosx_x86_64_1_12_4_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_librealsense_platform_1_12_4_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_librealsense_windows_x86_1_12_4_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_librealsense_windows_x86_64_1_12_4_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_openblas_0_3_9_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_openblas_android_arm64_0_3_9_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_openblas_android_arm_0_3_9_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_openblas_android_x86_0_3_9_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_openblas_android_x86_64_0_3_9_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_openblas_ios_arm64_0_3_9_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_openblas_ios_x86_64_0_3_9_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_openblas_linux_arm64_0_3_9_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_openblas_linux_armhf_0_3_9_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_openblas_linux_ppc64le_0_3_9_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_openblas_linux_x86_0_3_9_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_openblas_linux_x86_64_0_3_9_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_openblas_macosx_x86_64_0_3_9_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_openblas_platform_0_3_9_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_openblas_windows_x86_0_3_9_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_openblas_windows_x86_64_0_3_9_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_opencv_4_3_0_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_opencv_android_arm64_4_3_0_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_opencv_android_arm_4_3_0_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_opencv_android_x86_4_3_0_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_opencv_android_x86_64_4_3_0_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_opencv_ios_arm64_4_3_0_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_opencv_ios_x86_64_4_3_0_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_opencv_linux_arm64_4_3_0_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_opencv_linux_armhf_4_3_0_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_opencv_linux_ppc64le_4_3_0_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_opencv_linux_x86_4_3_0_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_opencv_linux_x86_64_4_3_0_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_opencv_macosx_x86_64_4_3_0_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_opencv_platform_4_3_0_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_opencv_windows_x86_4_3_0_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_opencv_windows_x86_64_4_3_0_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_tesseract_4_1_1_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_tesseract_android_arm64_4_1_1_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_tesseract_android_arm_4_1_1_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_tesseract_android_x86_4_1_1_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_tesseract_android_x86_64_4_1_1_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_tesseract_linux_arm64_4_1_1_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_tesseract_linux_armhf_4_1_1_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_tesseract_linux_ppc64le_4_1_1_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_tesseract_linux_x86_4_1_1_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_tesseract_linux_x86_64_4_1_1_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_tesseract_macosx_x86_64_4_1_1_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_tesseract_platform_4_1_1_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_tesseract_windows_x86_4_1_1_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_tesseract_windows_x86_64_4_1_1_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_videoinput_0_200_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_videoinput_platform_0_200_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_videoinput_windows_x86_0_200_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_videoinput_windows_x86_64_0_200_1_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_ghost4j_ghost4j_1_0_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_14_Final.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jboss_vfs_3_2_15_Final.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_latencyutils_LatencyUtils_2_0_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_6.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_25.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_3_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_1_3_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_1_3_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_3_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_3_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_1_3_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_3_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_3_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_3_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_1_3_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_3_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_3_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_5_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_5_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_5_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_5_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_5_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_5_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_5_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_1_5_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_5_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_5_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_5_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_3_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_11_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_11_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__xerces_xercesImpl_2_10_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_4_01.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-12" />
+    <option name="width" value="981" />
+    <option name="height" value="1092" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="cinema" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SummerProject01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cinema" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SummerProject01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cinema" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SummerProject01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cinema" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SummerProject01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cinema" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SummerProject01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cinema" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SummerProject01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cinema" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SummerProject01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/static/js" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="StoryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cinema" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.cinema.StoryApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cb6c5bdb-fdd7-44a2-9f50-e994403ec602" name="Default Changelist" comment="" />
+      <created>1624458718425</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1624458718425</updated>
+      <workItem from="1624458719848" duration="248000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="248000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="DB Browser" />
+      <window_info id="Capture Tool" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Web" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2497979" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="DB Execution Console" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/selectFix.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/startSelect.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-741" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/selectPs.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/startSelectFix.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/startSelectPs.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/startSelect.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/selectWhichCartoon.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/selectWhichFix.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="857">
+          <caret line="75" column="7" selection-start-line="75" selection-start-column="7" selection-end-line="75" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/selectWhichPs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="62" column="25" lean-forward="true" selection-start-line="62" selection-start-column="25" selection-end-line="62" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

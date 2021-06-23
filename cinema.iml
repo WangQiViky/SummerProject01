@@ -22,51 +22,6 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/src/main/resources/lib/jlayer-1.0.1.4.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/src/main/resources/lib/json-jena-1.0.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/src/main/resources/lib/mp3spi-1.9.5-1.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/src/main/resources/lib/Msc.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/src/main/resources/lib/tritonus_share.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
     <orderEntry type="library" name="Maven: com.alibaba:fastjson:1.2.67" level="project" />
     <orderEntry type="library" name="Maven: com.qiniu:qiniu-java-sdk:7.4.0" level="project" />
     <orderEntry type="library" name="Maven: com.squareup.okhttp3:okhttp:3.14.2" level="project" />
@@ -194,10 +149,6 @@
     <orderEntry type="library" name="Maven: org.bytedeco:flandmark:1.07-1.5.3" level="project" />
     <orderEntry type="library" name="Maven: org.bytedeco:leptonica:1.79.0-1.5.3" level="project" />
     <orderEntry type="library" name="Maven: org.bytedeco:tesseract:4.1.1-1.5.3" level="project" />
-    <orderEntry type="library" name="Maven: org.openjfx:javafx-graphics:11" level="project" />
-    <orderEntry type="library" name="Maven: org.openjfx:javafx-graphics:win:11" level="project" />
-    <orderEntry type="library" name="Maven: org.openjfx:javafx-base:11" level="project" />
-    <orderEntry type="library" name="Maven: org.openjfx:javafx-base:win:11" level="project" />
     <orderEntry type="library" name="Maven: org.bytedeco:javacv-platform:1.5.3" level="project" />
     <orderEntry type="library" name="Maven: org.bytedeco:openblas-platform:0.3.9-1.5.3" level="project" />
     <orderEntry type="library" name="Maven: org.bytedeco:javacpp-platform:1.5.3" level="project" />
